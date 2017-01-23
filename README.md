@@ -1,3 +1,3 @@
 # Classwork
 
-This repository contains projects from chapters in my classwork.
+This repository contains some chapter assignments I had to complete for my classwork.
