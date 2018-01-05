@@ -20,15 +20,15 @@ You will develop a multiple-screen mobile application for WGU students to track 
 Input
 Each of the following needs to be input into the application:
 •   terms, including the following: 
--   the term title (e.g., Term 1, Term 2)
--   the start date
--   the end date
+  -   the term title (e.g., Term 1, Term 2)
+  -   the start date
+  -   the end date
 •   courses, including the following:
--   the course title
--   the start date
--   the anticipated end date
--   the status (e.g., in progress, completed, dropped, plan to take)
--   the course mentor name(s), phone number(s), and email address(es)
+  -   the course title
+  -   the start date
+  -   the anticipated end date
+  -   the status (e.g., in progress, completed, dropped, plan to take)
+  -   the course mentor name(s), phone number(s), and email address(es)
 •   objective and performance assessments associated with each course
 •   the ability to add optional notes for each course
 •   the ability to set alerts or notifications for the start and end date of each course
@@ -39,20 +39,20 @@ Each of the following needs to be displayed by the application on a separate scr
 •   the navigation panel
 •   a list of terms
 •   a detailed view of each term, including the following:
--   the title (e.g., Term 1, Term 2)
--   the start date
--   the end date
+  -   the title (e.g., Term 1, Term 2)
+  -   the start date
+  -   the end date
 •   a list of courses for each term
 •   a detailed view of each course, including the following:
--   the course title
--   the start date
--   the anticipated end date
--   assessments
+  -   the course title
+  -   the start date
+  -   the anticipated end date
+  -   assessments
 •   a list of performance and objective assessments for a selected course
 •   a detailed view of each objective and performance assessment, including the following:
--   the due date for a selected course
--   notes for the selected course
--   sharing features (e.g., email, SMS)
+  -   the due date for a selected course
+  -   notes for the selected course
+  -   sharing features (e.g., email, SMS)
  
 Requirements:
 
@@ -62,45 +62,45 @@ Note: For your convenience an optional checklist is attached to help guide you t
  
 A.  Create an Android (version 4.0 or higher) mobile application with the following functional requirements: 
 1.  Include the following information for each term:
-•   the term title (e.g., Term 1, Term 2)
-•   the start date
-•   the end date
+  •   the term title (e.g., Term 1, Term 2)
+  •   the start date
+  •   the end date
 2.  Include features that allow the user to add as many terms as needed.
 3.  Implement validation so that a term cannot be deleted if courses are assigned to it.
 4.  Include features that allow the user to do the following for each term:
-a.  add as many courses as needed
-b.  display a list of courses associated with each term
-c.  display a detailed view of each term, which includes the following information:
-•   the term title (e.g., Term 1, Term 2)
-•   the start date
-•   the end date
+  a.  add as many courses as needed
+  b.  display a list of courses associated with each term
+  c.  display a detailed view of each term, which includes the following information:
+    •   the term title (e.g., Term 1, Term 2)
+    •   the start date
+    •   the end date
 5.  Include the following details for each course:
-•   the course title
-•   the start date
-•   the anticipated end date
-•   the status (e.g., in progress, completed, dropped, plan to take)
-•   the course mentor name(s), phone number(s), and e-mail address(es)
+  •   the course title
+  •   the start date
+  •   the anticipated end date
+  •   the status (e.g., in progress, completed, dropped, plan to take)
+  •   the course mentor name(s), phone number(s), and e-mail address(es)
 6.  Include features that allow the user to do the following for each course:
-a.  add as many assessments as needed
-b.  add optional notes
-c.  enter, edit, and delete course information
-d.  display optional notes
-e.  display a detailed view of the course, including the due date
-f.  set alerts for the start and end date
-g.  share notes via a sharing feature (e.g., e-mail, SMS)
+  a.  add as many assessments as needed
+  b.  add optional notes
+  c.  enter, edit, and delete course information
+  d.  display optional notes
+  e.  display a detailed view of the course, including the due date
+  f.  set alerts for the start and end date
+  g.  share notes via a sharing feature (e.g., e-mail, SMS)
 7.  Include features that allow the user to do the following for each assessment:
-a.  add performance and/or objective assessments for each course, including the titles and due dates of the assessments
-b.  enter, edit, and delete assessment information
-c.  set alerts for goal dates
+  a.  add performance and/or objective assessments for each course, including the titles and due dates of the assessments
+  b.  enter, edit, and delete assessment information
+  c.  set alerts for goal dates
  
 B.  Design at least the following seven screen layouts, including appropriate GUI elements for each screen:
-•   a home screen
-•   a list of terms
-•   a list of courses
-•   a list of assessments
-•   a detailed course view
-•   a detailed term view
-•   a detailed assessment view
+  •   a home screen
+  •   a list of terms
+  •   a list of courses
+  •   a list of assessments
+  •   a detailed course view
+  •   a detailed term view
+  •   a detailed assessment view
  
 Note: You are required to design the seven screens listed in part B but are not limited to only seven.
  
@@ -109,30 +109,30 @@ C.  Create a scheduler and progress tracking application in your mobile applicat
 Note: This can be the implementation of part A.
  
 1.  Include the following implementation requirements:
-•   an arrayList
-•   an intent class
-•   navigation capability between multiple screens using activity
-•   at least three activities
-•   events (e.g., a click event)
-•   the ability to work in portrait and landscape layout
-•   interactive capability (e.g., the ability to accept and act upon user input)
-•   a database to store and retrieve application data
-•   an application title and an icon
-•   the use of at least two different methods to save data (e.g., SharedPreference, SQLite)
-•   notifications or alerts
-•   the use of both declarative and programmatic methods to create a user interface
+  •   an arrayList
+  •   an intent class
+  •   navigation capability between multiple screens using activity
+  •   at least three activities
+  •   events (e.g., a click event)
+  •   the ability to work in portrait and landscape layout
+  •   interactive capability (e.g., the ability to accept and act upon user input)
+  •   a database to store and retrieve application data
+  •   an application title and an icon
+  •   the use of at least two different methods to save data (e.g., SharedPreference, SQLite)
+  •   notifications or alerts
+  •   the use of both declarative and programmatic methods to create a user interface
  
 Note: Your application should work at least on Android 4.0 (API level 14).
  
 2.  Include at least the following interface requirements:
-•   seven screens
-•   the ability to scroll vertically
-•   an action bar
-•   a menu
-•   an imageview
-•   two layouts
-•   input controls
-•   buttons
+  •   seven screens
+  •   the ability to scroll vertically
+  •   an action bar
+  •   a menu
+  •   an imageview
+  •   two layouts
+  •   input controls
+  •   buttons
  
 D.  Create a storyboard that includes each of the menus and screens from part B to demonstrate application flow.
  
@@ -141,12 +141,12 @@ E.  Provide screenshots to demonstrate that you have created a deployment packag
 Note: Verify that all the required functions of your application are working by executing the apk file.
  
 F.  Reflect on the creation of your mobile application by doing the following:
-1.  Explain mobile application development through the context of the architecture involved, including hardware and software capabilities and limitations.
-a.  Identify which version of the operating system your application was developed under and is compatible with.
-2.  Describe (suggested length of at least one paragraph) the challenges you faced during the development of the mobile application.
-3.  Describe (suggested length of at least one paragraph) how you overcame each challenge discussed in part F2.
-4.  Describe (suggested length of at least one paragraph) what you would do differently if you did the project again.
-5.  Describe how emulators are used and the pros and cons of using an emulator vs. using a development device.
+  1.  Explain mobile application development through the context of the architecture involved, including hardware and software capabilities and limitations.
+    a.  Identify which version of the operating system your application was developed under and is compatible with.
+  2.  Describe (suggested length of at least one paragraph) the challenges you faced during the development of the mobile application.
+  3.  Describe (suggested length of at least one paragraph) how you overcame each challenge discussed in part F2.
+  4.  Describe (suggested length of at least one paragraph) what you would do differently if you did the project again.
+  5.  Describe how emulators are used and the pros and cons of using an emulator vs. using a development device.
  
 G.  When you use sources, include all in-text citations and references in APA format.
  
